@@ -123,6 +123,24 @@ margin-bottom: 8px;
 }
 .btn-secondary:hover { border-color: #ffffff; color: #ffffff; }
 
+/* Home hero: two-column with quote form */
+.home-hero .hero-bg { opacity: 0.45; }
+.home-hero .hero-inner {
+  position: relative; z-index: 2;
+  display: flex; align-items: center; gap: 48px; flex-wrap: wrap;
+  max-width: 1200px; margin: 0 auto; width: 100%;
+  padding: 56px 32px;
+}
+.home-hero .hero-content { flex: 1 1 430px; max-width: 600px; padding: 0; }
+.home-hero .hero-form { flex: 1 1 380px; max-width: 520px; margin-left: auto; }
+.home-hero .hero-form .hero-form-title { font-size: 1.5rem; font-weight: 800; color: #0d1b2a; margin-bottom: 6px; letter-spacing: -0.3px; }
+.home-hero .hero-form .hero-form-sub { font-size: 0.92rem; color: #64748b; margin-bottom: 18px; }
+.home-hero .hero-form .form-group { margin-bottom: 14px; }
+@media (max-width: 860px) {
+  .home-hero .hero-inner { gap: 28px; padding: 44px 24px; }
+  .home-hero .hero-form { margin-left: 0; max-width: 560px; width: 100%; }
+}
+
 /* === Trust Bar === */
 .trust-bar {
 background: #ffffff;

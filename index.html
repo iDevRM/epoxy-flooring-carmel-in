@@ -98,20 +98,49 @@
 </nav>
 
 <!-- Hero -->
-<section class="hero">
+<section class="hero home-hero">
   <img
     class="hero-bg"
-    src="https://images.unsplash.com/photo-1772305336606-989a457ffbae?w=1400&q=85&auto=format&fit=crop"
-    alt="epoxy flooring in Carmel"
+    src="images/garage-floor-epoxy-hero.jpg"
+    alt="Epoxy garage floor in Carmel, IN"
     loading="eager"
     width="1400"
     height="800"
   >
-  <div class="hero-content">
-    <h1>Epoxy Flooring in Carmel, IN</h1>
-    <p>Transform a cracked, stained garage or basement floor into a showroom-quality surface that handles Indiana&rsquo;s winters without peeling or flaking.</p>
-    <a href="tel:3174930591" class="btn-primary">Call for a Free Estimate</a>
-    <a href="/contact.html" class="btn-secondary">Get a Quote Online</a>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <h1>Epoxy Flooring in Carmel, IN</h1>
+      <p>Transform a cracked, stained garage or basement floor into a showroom-quality surface that handles Indiana&rsquo;s winters without peeling or flaking.</p>
+      <a href="tel:3174930591" class="btn-primary">Call for a Free Estimate</a>
+      <a href="/contact.html" class="btn-secondary">Get a Quote Online</a>
+    </div>
+    <div class="hero-form contact-form">
+      <h2 class="hero-form-title">Get a Fast, Free Quote</h2>
+      <p class="hero-form-sub">Tell us about your floor &mdash; we reply within 1 business day.</p>
+      <form action="https://formspree.io/f/xkolgdpp" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your name" aria-label="Your name" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" name="phone" placeholder="Phone number" aria-label="Phone number" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email address" aria-label="Email address" required>
+        </div>
+        <div class="form-group">
+          <select name="service" aria-label="Service needed">
+            <option value="">Service needed&hellip;</option>
+            <option value="garage-epoxy">Garage Floor Epoxy</option>
+            <option value="basement-epoxy">Basement Floor Epoxy</option>
+            <option value="polyaspartic">Polyaspartic Coating</option>
+            <option value="not-sure">Not sure &mdash; need advice</option>
+          </select>
+        </div>
+        <input type="hidden" name="_subject" value="New Quote Request - Homepage - Carmel Epoxy Flooring">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1">
+        <button type="submit" class="btn-submit">Get My Free Quote &rarr;</button>
+      </form>
+    </div>
   </div>
 </section>
 
